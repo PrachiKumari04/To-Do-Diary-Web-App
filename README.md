@@ -11,32 +11,13 @@
 * **Delete tasks:** Remove tasks you don't need anymore.
 * **Organization:** Keep track of your tasks in a clear and visually appealing list.
 * **Responsive design:** Enjoy a seamless experience on both mobile and desktop devices.
-* **Charm:** Immerse yourself in a nostalgic writing experience (consider replacing with a more generic term if the design isn't strictly nostalgic).
+
 * **PWA capabilities:** Use the app offline and install it on your device for easy access.
 
 **Getting Started:**
 
 1. **Prerequisites:** You'll need a web server to run the app locally. We recommend using http-server (`npm install -g http-server`).
-2. **Clone the repository:**
 
-   ```bash
-   git clone https://github.com/yourusername/to-do-diary.git
-   ```
-
-3. **Install http-server (if not already installed):**
-
-   ```bash
-   npm install -g http-server
-   ```
-
-4. **Start the server:**
-
-   ```bash
-   cd to-do-diary
-   http-server
-   ```
-
-5. **Open your browser:** Navigate to http://localhost:8080 to access the app.
 
 **File Structure:**
 
@@ -84,18 +65,7 @@ We welcome contributions to this project! If you'd like to help, follow these st
 4. Push your branch to your fork (e.g., `git push origin my-feature-branch`).
 5. Create a pull request to merge your changes into the main repository.
 
-**License:**
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-**Acknowledgments:**
-
-* Icons made by [Author] from [Source] (replace with appropriate information).
 
 **Enjoy using your To-Do Diary!**
 
-I've made the following changes:
 
-* Removed all instances of the word "vintage".
-* Replaced "charm" with a more generic term (consider adding a specific descriptive word if applicable).
-* Updated the description of the styles.css file (consider mentioning the style if it's not generic).
