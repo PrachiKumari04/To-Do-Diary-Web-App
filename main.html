@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do Diary</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>My To-Do Diary</h1>
+        </header>
+        <main>
+            <div class="task-input">
+                <input type="text" id="task" placeholder="New Task">
+                <input type="date" id="date">
+                <input type="time" id="time">
+                <button id="add-task">Add Task</button>
+            </div>
+            <div class="task-lists">
+                <ul id="task-list">
+                    <!-- Tasks will be added here -->
+                </ul>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/service-worker.js')
+            .then((registration) => {
+                console.log('Service Worker registered with scope:', registration.scope);
+            })
+            .catch((error) => {
+                console.error('Service Worker registration failed:', error);
+            });
+        }
+    </script>
+</body>
+</html>
