@@ -65,7 +65,9 @@ We welcome contributions to this project! If you'd like to help, follow these st
 4. Push your branch to your fork (e.g., `git push origin my-feature-branch`).
 5. Create a pull request to merge your changes into the main repository.
 
+Author- Prachi Kumari prachikumari2804@gmail.com
 
-**Enjoy using your To-Do Diary!**
+![Capture](https://github.com/user-attachments/assets/c57e921a-4044-487b-99e1-8ffcc6539828)
+
 
 
